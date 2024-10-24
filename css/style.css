@@ -64,7 +64,7 @@ h1 {
   height: 40px;
   width: 60%;
   margin-top: 20px;
-  background-image: url(../assets/images/illustration-five-stars.webp);
+  background-image: url(/assets/images/illustration-five-stars.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -79,7 +79,7 @@ h1 {
 #card2Img {
   height: 60px;
   width: 80%;
-  background-image: url(../assets/images/illustration-multiple-platforms.webp);
+  background-image: url(/assets/images/illustration-multiple-platforms.webp);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 10px;
@@ -94,7 +94,7 @@ h1 {
 }
 
 #card3Img {
-  background-image: url(../assets/images/illustration-consistent-schedule.webp);
+  background-image: url(/assets/images/illustration-consistent-schedule.webp);
   background-size: cover;
   background-repeat: no-repeat;
   width: 70%;
@@ -116,7 +116,7 @@ h1 {
 }
 
 #card4Img {
-  background-image: url(../assets/images/illustration-schedule-posts.webp);
+  background-image: url(/assets/images/illustration-schedule-posts.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 20em;
@@ -137,7 +137,7 @@ h1 {
 }
 
 #card5Img {
-  background-image: url(../assets/images/illustration-grow-followers.webp);
+  background-image: url(/assets/images/illustration-grow-followers.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;
@@ -160,7 +160,7 @@ h1 {
 }
 
 #card6Img {
-  background-image: url(../assets/images/illustration-audience-growth.webp);
+  background-image: url(/assets/images/illustration-audience-growth.webp);
   background-size: contain;
   background-repeat: no-repeat;
   margin: 20px;
@@ -179,7 +179,7 @@ h1 {
 }
 
 #card7Img {
-  background-image: url(../assets/images/illustration-create-post.webp);
+  background-image: url(/assets/images/illustration-create-post.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 80px;
@@ -194,7 +194,7 @@ h1 {
 }
 
 #card8Img {
-  background-image: url(../assets/images/illustration-ai-content.webp);
+  background-image: url(/assets/images/illustration-ai-content.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 250px;
