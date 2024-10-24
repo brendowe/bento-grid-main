@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: var(--fonte);
+}
+
+:root {
+  --fonte: "DM Sans", sans-serif;
+
+  --Purple100: hsl(254, 88%, 90%);
+  --Purple500: hsl(256, 67%, 59%);
+  --Yellow100: hsl(31, 66%, 93%);
+  --Yellow500: hsl(39, 100%, 71%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  width: 375px;
+  margin: auto;
+}
+
+.cards {
+  background-color: beige;
+  border-radius: 5px;
+  margin: 20px auto 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+#card1 {
+  text-align: center;
+  gap: 10px;
+  line-height: 45px;
+  background-color: var(--Purple500);
+  color: var(--White);
+  grid-area: card1;
+}
+
+#card1 p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#card1X {
+  color: var(--Yellow500);
+}
+
+#card1Img {
+  height: 40px;
+  width: 60%;
+  margin-top: 20px;
+  background-image: url(/assets/images/illustration-five-stars.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#card2 {
+  background-color: var(--White);
+  font-weight: 400;
+  line-height: 20px;
+  grid-area: card2;
+}
+
+#card2Img {
+  height: 60px;
+  width: 80%;
+  background-image: url(/assets/images/illustration-multiple-platforms.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+#card3 {
+  padding-bottom: 0px;
+  background-color: var(--Yellow500);
+  font-weight: 400;
+  line-height: 20px;
+  grid-area: card3;
+}
+
+#card3Img {
+  background-image: url(/assets/images/illustration-consistent-schedule.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 155px;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#card4 {
+  text-align: center;
+  background-color: var(--Purple100);
+  font-weight: 400;
+  grid-area: card4;
+}
+
+#card4 p {
+  font-size: 18px;
+  padding: 0px 20px 0 20px;
+}
+
+#card4Img {
+  background-image: url(/assets/images/illustration-schedule-posts.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20em;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+#card5 {
+  background-color: var(--Purple500);
+  text-align: center;
+  color: var(--White);
+  font-size: 20px;
+  grid-area: card5;
+}
+
+#card5 h2 {
+  padding: 20px 40px 0px 40px;
+}
+
+#card5Img {
+  background-image: url(/assets/images/illustration-grow-followers.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 60%;
+}
+
+#card6 {
+  background-color: var(--White);
+  grid-area: card6;
+}
+
+#card6 h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-right: auto;
+}
+
+#card6 p {
+  margin-right: auto;
+}
+
+#card6Img {
+  background-image: url(/assets/images/illustration-audience-growth.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 20px;
+  height: 70px;
+  width: 100%;
+}
+
+#card7 {
+  background-color: var(--Yellow100);
+  font-size: 20px;
+  grid-area: card7;
+}
+
+#card7X {
+  color: var(--Purple500);
+}
+
+#card7Img {
+  background-image: url(/assets/images/illustration-create-post.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#card8 {
+  background-color: var(--Yellow500);
+  font-size: 20px;
+  grid-area: card8;
+}
+
+#card8Img {
+  background-image: url(/assets/images/illustration-ai-content.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (min-width: 1440px) {
+
+  main {
+    width: 60%;
+    padding: 0px;
+    margin-top: 50px;
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "card7 card1 card1 card4"
+      "card7 card1 card1 card4"
+      "card7 card1 card1 card4"
+      "card7 card2 card3 card4"
+      "card8 card2 card3 card4"
+      "card8 card2 card3 card4"
+      "card8 card6 card5 card5"
+      "card8 card6 card5 card5";
+      gap: 20px;
+  }
+
+  .cards {
+    margin: 0;
+    width: 100%;
+  }
+
+h1 {
+font-size: 60px;
+}
+
+#card1Img {
+  background-size: cover;
+  width: 50%;
+}
+
+  #card2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #card2Img {
+    background-size: contain;
+    width: 100%;
+  }
+
+  #card4 {
+    padding-right: 0;
+    text-align: left;
+  }
+
+  #card4 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #card4Img {
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    margin-left: auto;
+  }
+
+  #card5 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    font-size: 22px;
+  }
+
+  #card5 h2 {
+    margin-bottom: auto;
+  }
+
+  #card5Img {
+  background-size: contain;
+   width: 100%;
+  }
+
+  #card3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #card3Img {
+    background-size: cover;
+    height: 5em;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  #card8 {
+    font-size: 27px;
+    padding: 10px;
+  }
+
+  #card8Img {
+    height: 100%;
+  }
+}
