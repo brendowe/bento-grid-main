@@ -64,7 +64,7 @@ h1 {
   height: 40px;
   width: 60%;
   margin-top: 20px;
-  background-image: url(../assets/images/illustration-five-stars.webp);
+  background-image: url(./assets/images/illustration-five-stars.webp);
   background-size: contain;
   background-repeat: no-repeat;
 }
